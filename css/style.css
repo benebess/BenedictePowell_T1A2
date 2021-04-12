@@ -3,16 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*background image*/
+
+body {
+    background-image: url('/img/wallpaper.jpg');
+    background-repeat: repeat;
+  }
+
 /*navigation bar*/
 
 .topnav{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
 
 a{
-    color: blanchedalmond;
+    color: #605400;
+    font-size: 20px;
     background-color: orange;
     border: solid;
     border-width: 1px;
@@ -20,7 +30,8 @@ a{
     border-radius: 20%;
     align-content: space-between;
     display: inline-flex;
-    margin: 10px;
+    margin: 20px;
+    text-decoration: none;
 }
 
 a:hover{
@@ -31,10 +42,11 @@ a:hover{
 /*profile section*/
 
 .title{
+    color: #fed811;
     font-size: 5em;
+    text-shadow: 0px 5px #605400, 1px 5px #605400, 1px 5px #605400, 1px 5px #605400;
     text-align: center;
-    padding-top: 30px;
-
+    padding-top: 200px;
 }
 
 .titletwo{
