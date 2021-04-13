@@ -54,17 +54,9 @@ body {
     display:flex;
 }
 
-.topnav2{
-    flex-direction: column;
-    align-content: flex-start;
-    width: 100%;
-    display: flex;
-}
 a:hover{
     text-decoration: underline;
     transform: scale(1.1);
-    transform: rotate(20deg);
-
 }
 
 a:active{
@@ -81,9 +73,10 @@ a:active{
     flex-wrap: wrap;
     text-shadow: 0px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00;
     text-align: center;
-    padding-top: 80px;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
+    line-height: 1em;
 
 }
 
@@ -102,12 +95,78 @@ title:hover{
 
 /*about me section*/
 
+#about .title{
+    padding-top: 0;
+}
+
 .container1 p{
     font-size: 20px;
     text-align: center;
     color: #cd7d2e;
     font-family: 'Lobster', cursive;
 }
+
+#about img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+    border: solid;
+    border-color: #ee9401;
+    border-radius: 50%;
+}
+/*blog section*/
+
+#blogpage .title{
+    font-family: 'Dela Gothic One', cursive;
+    color: #ee9401;
+    font-size: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    text-shadow: 0px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom:70px;
+    line-height: 1em;
+}
+
+.blog img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: solid;
+    border-color: #ee9401;
+    border-radius: 50%;
+}
+
+.blogtitle{
+    font-family: 'Dela Gothic One', cursive;
+    color: #ee9401;
+    text-transform: uppercase;
+    font-size:20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.blogdate{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #a5621f;
+    font-size: 20px;
+}
+
+#blogpage p{
+    font-family: 'Dela Gothic One', cursive;
+    color:#cd7d2e;
+    padding-bottom: 30px;
+    margin: 10px;
+    text-align:center;
+}
+
 
 /*contact section*/
 
@@ -142,6 +201,7 @@ title:hover{
 }
 
 .footer{
+    padding-top: 20px;
     padding-bottom: 2.5em;
     position: fixed;
     left: 0;
@@ -162,29 +222,18 @@ title:hover{
 @media only screen and (min-width: 600px) {
     /*larger than 601px - 768px*/
      /* For tablets: */
+
+     /*navbar section*/
     .navbar{
         display: flex;
         justify-content: center;
-        /* border: red solid 3px; */
     }
 
     .navbar .topnav1{
         align-items: center; 
         display: inline-flex;
         margin-top: 10px;
-        padding: 3px; 
-        flex-direction: row;
-        width: 50%;
-        height: 20%;
-        /* border: green solid 3px; */
-        justify-content: space-evenly;
-        display: flex;
-    }
-    .navbar .topnav2{
-        align-items: center; 
-        display: inline-flex; 
-        margin-top: 10px;
-        padding: 3px; 
+        padding: 10px; 
         flex-direction: row;
         width: 50%;
         height: 20%;
@@ -197,7 +246,7 @@ title:hover{
         width: 100%;
         height: 50px;
         display: inline-flex;
-        padding: 4px;
+        padding: 30px;
     }
 
     a:hover{
@@ -210,6 +259,8 @@ title:hover{
         transform: scale(0.9);
     }
 
+    /*home section*/
+
     #home{
         margin:auto; 
         padding-top: 200px; 
@@ -217,43 +268,135 @@ title:hover{
         text-align: center;
     }
 
+    /*about section*/
+
+    #about{
+        padding-top: 20px;
+    }
     #about .title{
         font-size: 6em;
-        padding-top: 150px;
+        padding-top: 0;
     }
 
-    #about .container1 p{
-        font-size: 35px;
+    .container1 p{
+        font-size: 25px;
+    }
+
+    #about img{
+        width: 400px;
+        height: 400px;
+        display: block;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid;
+        border-color: #ee9401;
+        border-radius: 50%;
+    }
+
+    /*blog section*/
+
+    #blogpage .title{
+        font-size: 130px;
+    }
+    
+    .blogtitle{
+        font-size: 2em;
+        text-decoration: none;
+    }
+
+    .blogdate{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .blog p{
+        font-size: 20px;
+    }
+
+    #blog img{
+        width: 500px;
+        height: 500px;
     }
 
 }
 @media only screen and (min-width: 769px) {
     /*anything beyong 769px*/
   /* For desktop: */
-  .navbar a{
-    letter-spacing: 1px;
-    color: #605400;
-    text-align: center;
-    font-size: 20px;
-    background-color: orange;
-    border: solid;
-    border-width: 3px;
-    border-color: #423b00;
-    border-radius: 80px;
-    align-content: center;
-    flex-direction: row;
-    text-decoration: none;
-    font-family:'Dela Gothic One', cursive;
-}
-.topnav1{
-    display:inline-flex;
-    flex-direction: row;
-    align-content: center;
-}
 
-.topnav2{
-    display: inline-flex;
-    flex-direction: row;
-    align-content: center;
-}
+  /*navbar section*/
+  
+    .navbar a{
+     letter-spacing: 1px;
+     color: #605400;
+     align-items: center;
+     text-align: center;
+     background-color: orange;
+     border: solid;
+     border-width: 3px;
+     border-color: #423b00;
+     border-radius: 80px;
+     align-content: center;
+     flex-direction: row;
+     text-decoration: none;
+     font-family:'Dela Gothic One', cursive;
+    }
+
+   .topnav1{
+     display:inline-flex;
+     flex-direction: row;
+     align-content: center; 
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        transform: scale(1.1);
+    }
+    
+    a:active{
+        transform: scale(0.9);
+    }
+
+    /*home section*/
+
+    .title{
+        font-size: 100px;
+        padding-top: 10px;
+    }
+
+    /*about me section*/
+
+    #about .title{
+        font-size: 70px;
+    }
+
+    #about img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .container1 p{
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+
+    /*blog section*/
+
+    #blogpage img{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+        margin-left: 50px;
+        width: 500px;
+        height: 500px;
+    }
+
+    #blogpage p{
+        display: flex;
+        flex-direction: row;
+        margin:0;
+        padding:0;
+    }
 }
