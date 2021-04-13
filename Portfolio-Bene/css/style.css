@@ -21,31 +21,54 @@ body {
 /*navigation bar*/
 
 .topnav{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+    padding-top:0;
+    padding-bottom:0;
+
 }
 
 .navbar a{
+    letter-spacing: 1px;
     color: #605400;
-    padding: 1em 1.5em;
+    text-align: center;
     font-size: 20px;
     background-color: orange;
     border: solid;
     border-width: 3px;
     border-color: #423b00;
     border-radius: 80px;
+    justify-content: space-evenly;
     align-content: center;
     display: inline-flex;
-    margin: 20px;
+    flex-direction: column;
     text-decoration: none;
     font-family:'Dela Gothic One', cursive;
 }
 
+.topnav1{
+    flex-direction: column;
+    align-content: flex-start;
+    width: 100%;
+    display:flex;
+}
+
+.topnav2{
+    flex-direction: column;
+    align-content: flex-start;
+    width: 100%;
+    display: flex;
+}
 a:hover{
     text-decoration: underline;
+    transform: scale(1.1);
+    transform: rotate(20deg);
 
+}
+
+a:active{
+    transform: scale(0.9);
 }
 
 /*home section*/
@@ -53,10 +76,15 @@ a:hover{
 .title{
     font-family: 'Dela Gothic One', cursive;
     color: #ee9401;
-    font-size: 5em;
+    font-size: 3.5em;
+    display: flex;
+    flex-wrap: wrap;
     text-shadow: 0px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 title:hover{
@@ -75,9 +103,10 @@ title:hover{
 /*about me section*/
 
 .container1 p{
+    font-size: 20px;
     text-align: center;
     color: #cd7d2e;
-    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Lobster', cursive;
 }
 
 /*contact section*/
@@ -112,70 +141,119 @@ title:hover{
     font-family:'Dela Gothic One', cursive;
 }
 
+.footer{
+    padding-bottom: 2.5em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 0;
+    background-repeat: repeat;
+    flex-wrap: wrap;
+    background-image: url(/Portfolio-Bene/img/footer2.jpg);
 
+}
 
   /* responsive media queries */
 
-  /* For mobile phones: */
-  @media only screen and (min-width: 375px) {
-    .navbar .topnav1{
-        font-size: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
-    }
-    .navbar .topnav2{
-        font-size: 1px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
-    }
-    .title .h1{
-        font-size: 1px;
-        padding-top: 0;
-        justify-content: center;
-    }
-  }
-
 @media only screen and (min-width: 600px) {
     /*larger than 601px - 768px*/
+     /* For tablets: */
     .navbar{
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         /* border: red solid 3px; */
     }
-    /* For tablets: */
+
     .navbar .topnav1{
-        /* position: absolute;  */
-        align-content: center; 
-        margin:0; 
-        padding:0; 
+        align-items: center; 
+        display: inline-flex;
+        margin-top: 10px;
+        padding: 3px; 
+        flex-direction: row;
+        width: 50%;
+        height: 20%;
         /* border: green solid 3px; */
-        justify-content: center;
+        justify-content: space-evenly;
         display: flex;
     }
     .navbar .topnav2{
-        /* position: absolute;  */
-        align-content: center; 
-        margin:0; 
-        padding:0; 
+        align-items: center; 
+        display: inline-flex; 
+        margin-top: 10px;
+        padding: 3px; 
+        flex-direction: row;
+        width: 50%;
+        height: 20%;
+        /* border: green solid 3px; */
+        justify-content: space-evenly;
         display: flex;
-        justify-content: center;
-        /* border: blue solid 3px; */
     }
+    
+    .navbar a{
+        width: 100%;
+        height: 50px;
+        display: inline-flex;
+        padding: 4px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        transform: scale(1.1);
+    
+    }
+    
+    a:active{
+        transform: scale(0.9);
+    }
+
     #home{
         margin:auto; 
-        padding: 0; 
+        padding-top: 200px; 
         font-size: 1em; 
         text-align: center;
+    }
+
+    #about .title{
+        font-size: 6em;
+        padding-top: 150px;
+    }
+
+    #about .container1 p{
+        font-size: 35px;
     }
 
 }
 @media only screen and (min-width: 769px) {
     /*anything beyong 769px*/
   /* For desktop: */
-  
+  .navbar a{
+    letter-spacing: 1px;
+    color: #605400;
+    text-align: center;
+    font-size: 20px;
+    background-color: orange;
+    border: solid;
+    border-width: 3px;
+    border-color: #423b00;
+    border-radius: 80px;
+    align-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    font-family:'Dela Gothic One', cursive;
+}
+.topnav1{
+    display:inline-flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.topnav2{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+}
 }
