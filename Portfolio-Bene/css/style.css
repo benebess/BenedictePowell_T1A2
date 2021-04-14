@@ -215,7 +215,7 @@ title:hover{
     margin-bottom: 0;
     background-repeat: repeat;
     flex-wrap: wrap;
-    background-image: url(/Portfolio-Bene/img/footer2.jpg);
+    background-image: url(/img/footer2.jpg);
 
 }
 
@@ -460,7 +460,7 @@ title:hover{
         justify-content: left;
         text-align: left;
     }
-    }
+    
 
     /*blog entry 4*/
 
