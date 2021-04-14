@@ -13,6 +13,7 @@
 /*background image*/
 
 body {
+    background-color: #605400;
     background-image: url('/Portfolio-Bene/img/wallpaper2.jpg');
     background-repeat: repeat;
     flex-wrap: wrap;
@@ -131,6 +132,7 @@ title:hover{
     padding-top: 15px;
     padding-bottom:70px;
     line-height: 1em;
+    text-decoration: none;
 }
 
 .blog img{
@@ -143,16 +145,16 @@ title:hover{
     border-radius: 50%;
 }
 
-.blogtitle{
+#blogpage h1{
     font-family: 'Dela Gothic One', cursive;
     color: #ee9401;
     text-transform: uppercase;
-    font-size:20px;
+    font-size:18px;
     text-align: center;
     text-decoration: underline;
 }
 
-.blogdate{
+#blogpage h2{
     text-align: center;
     font-family: 'Lobster', cursive;
     color: #a5621f;
@@ -217,6 +219,14 @@ title:hover{
 
 }
 
+.footer .footer-icons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
   /* responsive media queries */
 
 @media only screen and (min-width: 600px) {
@@ -224,6 +234,10 @@ title:hover{
      /* For tablets: */
 
      /*navbar section*/
+
+     *{
+        cursor: url('/Portfolio-Bene/img/pointer-cursor.png'), auto;
+     }
     .navbar{
         display: flex;
         justify-content: center;
@@ -325,6 +339,9 @@ title:hover{
   /* For desktop: */
 
   /*navbar section*/
+    *{
+        cursor: url('/Portfolio-Bene/img/pointer-cursor.png'), auto;
+    }
   
     .navbar a{
      letter-spacing: 1px;
@@ -382,21 +399,93 @@ title:hover{
 
     /*blog section*/
 
-    #blogpage img{
+    /*blog entry 1*/
+
+    .blog-container1{
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        margin: 0;
-        padding: 0;
-        margin-left: 50px;
-        width: 500px;
-        height: 500px;
+        margin-bottom: 20px;
+        margin-left: 20px;
     }
 
-    #blogpage p{
+    .blog-container1 .img1{
+        justify-content: flex-start;
+    }
+
+    .blog-container1 .entry1{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    .blogpost1 p{
+        display: flex;
+        justify-content: left;
+
+
+    }
+
+    /*blog entry 2*/
+
+    .blog-container2{
         display: flex;
         flex-direction: row;
-        margin:0;
-        padding:0;
+        margin-bottom: 20px;
+        margin-left: 20px;
     }
+
+    .blog-container2 .img2{
+        justify-content: flex-start;
+    }
+
+    .blog-container2 .entry2{
+        justify-content: center;
+        align-content: center;
+    }
+
+    /*blog entry 3*/
+
+    .blog-container3{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .blog-container3 .img3{
+        justify-content: flex-start;
+    }
+
+    .blog-container3 .entry3, h1{
+        justify-content: left;
+        text-align: left;
+    }
+    }
+
+    /*blog entry 4*/
+
+    .blog-container4{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .blog-container4 .img4{
+        justify-content: flex-start;
+    }
+
+    /*blog entry 5*/
+
+    .blog-container5{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .blog-container5 .img5{
+        justify-content: flex-start;
+    }
+
 }
