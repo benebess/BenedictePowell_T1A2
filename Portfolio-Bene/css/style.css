@@ -7,14 +7,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url('/Portfolio-Bene/img/pointer-cursor.png'), auto;
+    cursor: url('/img/pointer-cursor.png'), auto;
 }
 
 /*background image*/
 
 body {
     background-color: #605400;
-    background-image: url('/Portfolio-Bene/img/wallpaper2.jpg');
+    background-image: url('/img/wallpaper2.jpg');
     background-repeat: repeat;
     flex-wrap: wrap;
   }
@@ -151,7 +151,7 @@ title:hover{
     text-transform: uppercase;
     font-size:18px;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #blogpage h2{
@@ -159,6 +159,7 @@ title:hover{
     font-family: 'Lobster', cursive;
     color: #a5621f;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 #blogpage p{
@@ -236,7 +237,7 @@ title:hover{
      /*navbar section*/
 
      *{
-        cursor: url('/Portfolio-Bene/img/pointer-cursor.png'), auto;
+        cursor: url('/img/pointer-cursor.png'), auto;
      }
     .navbar{
         display: flex;
