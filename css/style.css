@@ -195,11 +195,26 @@ title:hover{
     border-width: 3px;
     border-color: #423b00;
     border-radius: 80px;
-    align-content: center;
     display: inline-flex;
     margin: 20px;
     text-decoration: none;
     font-family:'Dela Gothic One', cursive;
+}
+
+.contactinfo{
+    display: inline-block;
+    background-color: #ee9401;
+    border-radius: 20%;
+    width: 300px;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#contact{
+    justify-content: center;
+    align-items: center;
 }
 
 .footer{
@@ -314,21 +329,21 @@ title:hover{
         font-size: 130px;
     }
     
-    .blogtitle{
+    #blogpage h1{
         font-size: 2em;
         text-decoration: none;
     }
 
-    .blogdate{
+    #blogpage h2{
         font-size: 30px;
         text-decoration: underline;
     }
 
-    .blog p{
+    #blogpage p{
         font-size: 20px;
     }
 
-    #blog img{
+    #blogpage img{
         width: 500px;
         height: 500px;
     }
@@ -399,93 +414,157 @@ title:hover{
 
     /*blog section*/
 
-    /*blog entry 1*/
+    #blogpage .title{
+        margin-bottom: 50px;
+        font-size: 5em;
+    }
+
+    #blogpage p{
+        text-align:left;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    #blogpage img{
+        margin-right: 30px;
+    }
+
+    #blogpage h1{
+        text-align:center;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    #blogpage h2{
+        text-decoration: underline;
+    }
+
+
+    /*entry section*/
+
 
     .blog-container1{
-        display: flex;
-        flex-direction: row;
+        float: none;
+        display: inline-block;
+        flex-wrap: nowrap;
+        justify-content: center;
         margin-bottom: 20px;
         margin-left: 20px;
     }
 
-    .blog-container1 .img1{
-        justify-content: flex-start;
+    .blog-container11{
+        display: inline-block;
+        flex-wrap: nowrap;
+        text-align: left;
     }
-
-    .blog-container1 .entry1{
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-    }
-
-    .blogpost1 p{
-        display: flex;
-        justify-content: left;
-
-
+    .blog-container11 img{
+        float: left;
+        margin-left: 20px;
     }
 
     /*blog entry 2*/
 
     .blog-container2{
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
+        flex-wrap: nowrap;
+        justify-content: center;
         margin-bottom: 20px;
         margin-left: 20px;
     }
 
-    .blog-container2 .img2{
-        justify-content: flex-start;
+    .blog-container22{
+        display: inline-block;
+        flex-wrap: nowrap;
+        text-align: left;
     }
 
-    .blog-container2 .entry2{
-        justify-content: center;
-        align-content: center;
+    .blog-container22 img{
+        float:left;
     }
 
     /*blog entry 3*/
 
     .blog-container3{
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
+        flex-wrap: nowrap;
+        justify-content: center;
         margin-bottom: 20px;
         margin-left: 20px;
     }
 
-    .blog-container3 .img3{
-        justify-content: flex-start;
+    .entry3{
+        font-size: 100px;
     }
 
-    .blog-container3 .entry3, h1{
-        justify-content: left;
+    .blog-container33{
+        display: inline-block;
+        flex-wrap: nowrap;
         text-align: left;
     }
-    
+
+    .blog-container33 img{
+        float: left;
+    }
 
     /*blog entry 4*/
 
     .blog-container4{
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
+        flex-wrap: nowrap;
+        justify-content: center;
         margin-bottom: 20px;
         margin-left: 20px;
     }
 
-    .blog-container4 .img4{
-        justify-content: flex-start;
+    .blog-container44{
+        display: inline-block;
+        flex-wrap: nowrap;
+        text-align: left;
+    }
+
+    .blog-container44 img{
+        float: left;
     }
 
     /*blog entry 5*/
 
     .blog-container5{
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
+        flex-wrap: nowrap;
+        justify-content: center;
         margin-bottom: 20px;
         margin-left: 20px;
     }
 
-    .blog-container5 .img5{
-        justify-content: flex-start;
+    .blog-container55{
+        display: inline-block;
+        flex-wrap: nowrap;
+        text-align: left;
     }
+
+    .blog-container55 img{
+        float: left;
+    }
+
+
+
+    /*contact page*/
+
+    .pdfresume a{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .pdfresume{
+        justify-content: center;
+    }
+
+    
+
+
 
 }
