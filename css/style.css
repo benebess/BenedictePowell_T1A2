@@ -105,7 +105,7 @@ title:hover{
     text-align: center;
     color: #cd7d2e;
     font-family: 'Lobster', cursive;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -115,7 +115,8 @@ title:hover{
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    width: 50%;
+    width: 200px;
+    height: 200px;
     border: solid;
     border-color: #ee9401;
     border-radius: 50%;
@@ -124,20 +125,20 @@ title:hover{
 .pdfresumecontainer{
     display:flex;
     justify-content: center;
-    margin-bottom: 150px;
+    margin-bottom:20px;
     margin-top:20px;
 }
 
 #about .pdfresumecontainer a{
     font-family: 'Dela Gothic One', cursive;
-    color: #605400;
+    color: #4e4501;
     text-decoration: none;
     background-color: #ee9401;
     border-radius: 20%;
     border: solid;
     text-align: center;
     border-radius: 10px;
-    border-color: #605400;
+    border-color: #4e4501;
     margin-bottom: 10px;
     justify-content: center;
     width: 100px; 
@@ -164,7 +165,7 @@ title:hover{
     border-radius: 15px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 150px;
 }
 
 
@@ -173,7 +174,7 @@ title:hover{
 #blogpage .title{
     font-family: 'Dela Gothic One', cursive;
     color: #ee9401;
-    font-size: 5em;
+    font-size: 80px;
     display: flex;
     flex-wrap: wrap;
     text-shadow: 0px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00;
@@ -181,9 +182,10 @@ title:hover{
     align-items: center;
     justify-content: center;
     padding-top: 15px;
-    padding-bottom:70px;
+    padding-bottom:25px;
     line-height: 1em;
     text-decoration: none;
+    text-transform: none;
 }
 
 .blog img{
@@ -315,6 +317,7 @@ title:hover{
     font-size:18px;
     text-align: center;
     text-decoration: none;
+    text-shadow: 0px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00, 1px 5px #423b00;
 }
 
 #projects p{
@@ -375,7 +378,7 @@ title:hover{
     background-color: #ee9401;
     border-radius: 20%;
     width: 300px;
-    height:300px;
+    height:250px;
     justify-content: center;
     align-items: center;
     margin-left: auto;
@@ -387,9 +390,26 @@ title:hover{
     margin-bottom: 10px;
 }
 
+
 #contact{
     justify-content: center;
     align-items: center;
+}
+
+.contactinfo a{
+    display: flex;
+    justify-content: center;
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+    align-content: center;
+    color:#605400;
+
+}
+
+.contactinfo p{
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+    color:#4e4501;
 }
 
 .contactform{
@@ -401,37 +421,10 @@ title:hover{
     
 }
 
-.contactform textarea{
+.contacticons{
     display: flex;
-    color: #605400;
-}
-
-.contactform label{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding-top: 30px;
-}
-
-.form-wrapper input[type="submit"] {
-    display: block;
-    color:#605400;
-   }
-   
-
-input[type="email"]
-{
-    background-color: #605400;
-    color:#ee9401;
-    width: 50%;
-}
-
-textarea{
-    background-color: #605400;
-    color:#ee9401;
-    width: 50%;
 }
 
 /* FOOTER SECTION */
@@ -476,7 +469,7 @@ textarea{
 
 .copyright{
     font-family: 'Dela Gothic One', cursive;
-    color: #605400;
+    color: #4e4501;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -575,7 +568,7 @@ textarea{
     /*blog section - TABLET */
 
     #blogpage .title{
-        font-size: 130px;
+        font-size: 100px;
     }
     
     #blogpage h1{
@@ -674,7 +667,25 @@ textarea{
 
     .contactinfo{
         width: 500px;
-        height: 500px;
+        height: 250px;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .contactinfo a{
+        display: flex;
+        justify-content: center;
+        font-family: 'Dela Gothic One', cursive;
+        text-align: center;
+        align-content: center;
+        color:#605400;
+    
+    }
+
+    .contactinfo p{
+        font-family: 'Dela Gothic One', cursive;
+        text-align: center;
+        color:#4e4501;
     }
 
     /* FOOTER - TABLET */
@@ -750,7 +761,7 @@ textarea{
 
     .container1 p{
         font-size: 20px;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
         margin-left: 300px;
         margin-right: 300px;
     }
@@ -759,7 +770,7 @@ textarea{
         margin-top: 30px;
         margin-left: 200px;
         margin-right: 200px;
-        margin-bottom: 30px;
+        margin-bottom: 150px;
     }
     
     #skills .title{
@@ -770,11 +781,12 @@ textarea{
         width: 100px;
         height: 100px;
         justify-content: space-evenly;
+
     }
 
     .pdfresume{
         margin-top: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
         width: 50%;
     }
     
@@ -915,6 +927,29 @@ textarea{
 
     /*contact page - DESKTOP */
 
+    .contactinfo{
+        margin-bottom: 150px;
+       
+    }
+
+    .contactinfo a{
+        display: flex;
+        justify-content: center;
+        font-family: 'Dela Gothic One', cursive;
+        text-align: center;
+        align-content: center;
+        color:#605400;
+    
+    }
+
+    .contactinfo p{
+        font-family: 'Dela Gothic One', cursive;
+        text-align: center;
+        color:#4e4501;
+    }
+
+
+
     
 
     /* footer - DESKTOP */
@@ -923,7 +958,10 @@ textarea{
         justify-content: center;
     }
 
-    
+    .footer{
+        height: 100px;
+    }
+
 
 
 
