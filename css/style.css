@@ -106,6 +106,8 @@ title:hover{
     color: #cd7d2e;
     font-family: 'Lobster', cursive;
     padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #about img{
@@ -119,6 +121,27 @@ title:hover{
     border-radius: 50%;
 }
 
+.pdfresumecontainer{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-top:20px;
+}
+
+#about .pdfresumecontainer a{
+    font-family: 'Dela Gothic One', cursive;
+    color: #605400;
+    text-decoration: none;
+    background-color: #ee9401;
+    border-radius: 20%;
+    border: solid;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #605400;
+    margin-bottom: 10px;
+    justify-content: center;
+    width: 100px; 
+}
 
 
 #skills img{
@@ -141,7 +164,7 @@ title:hover{
     border-radius: 15px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 
@@ -347,22 +370,6 @@ title:hover{
     align-items: center;
 }
 
-.pdfresume a{
-    display: block;
-    background-color: #ee9401;
-    border-radius: 20%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    border: solid;
-    border-radius: 9px;
-    border-color: #605400;
-    margin-bottom: 10px;
-    float: none;
-}
-
 .contactinfo{
     display: block;
     background-color: #ee9401;
@@ -391,10 +398,40 @@ title:hover{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .contactform textarea{
+    display: flex;
     color: #605400;
+}
+
+.contactform label{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.form-wrapper input[type="submit"] {
+    display: block;
+    color:#605400;
+   }
+   
+
+input[type="email"]
+{
+    background-color: #605400;
+    color:#ee9401;
+    width: 50%;
+}
+
+textarea{
+    background-color: #605400;
+    color:#ee9401;
+    width: 50%;
 }
 
 /* FOOTER SECTION */
@@ -419,17 +456,30 @@ title:hover{
 .footer .footer-icons{
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     padding-left:20px;
     padding-right:20px;
+    flex-direction: column;
 }
+
+.footer-icons img{
+    width:35px;
+    height:35px;
+}
+
+.iconscontainer{
+    display:flex;
+    justify-content: center;
+
+}
+
 
 .copyright{
     font-family: 'Dela Gothic One', cursive;
     color: #605400;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
   /* responsive media queries */
@@ -622,6 +672,22 @@ title:hover{
 
     /*contact page - TABLET */
 
+    .contactinfo{
+        width: 500px;
+        height: 500px;
+    }
+
+    /* FOOTER - TABLET */
+
+    .iconscontainer{
+        padding:0;
+        margin: 0;
+    }
+
+    .footer-icons img{
+        width:50px;
+        height:50px;
+    }
 
 }
 @media only screen and (min-width: 769px) {
