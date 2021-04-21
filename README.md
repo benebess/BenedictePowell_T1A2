@@ -2,11 +2,11 @@
 
 ## LINK TO PUBLISHED PORTFOLIO WEBSITE:
 
-https://benedicte-portfolio.netlify.app/
+[Benedicte Powell _ Portfolio Website T1A2](https://benedicte-portfolio.netlify.app/)
 
 ## LINK TO GITHUB REPO:
 
-https://github.com/benebess/Portfolio-Bene
+[GITHUB REPO](https://github.com/benebess/Portfolio-Bene)
 
 ## PURPOSE OF MY PORTFOLIO:
 
@@ -24,6 +24,39 @@ The homepage is a simple landing page with my name and a short subheading explai
 
 ## SCREENSHOTS: 
 
+### HOME PAGE -
+
+![](/Users/bonepile/Documents/Portfolio-Bene/img/SCREENSHOTShomepage.png)
+
+### ABOUT ME -
+
+![](/Users/bonepile/Documents/Portfolio-Bene/img/SCREENSHOTSaboutme1.png)
+
+![](/Users/bonepile/Documents/Portfolio-Bene/img/SCREENSHOTSaboutme2.png)
+
+### BLOG PAGE -
+
+![](/Users/bonepile/Documents/Portfolio-Bene/img/SCREENSHOTSblog1.png)
+
+![SCREENSHOTSblog2](/Users/bonepile/Documents/Portfolio-Bene/img/SCREENSHOTSblog2.png)
+
+### PROJECTS PAGE -
+
+![](/Users/bonepile/Documents/Portfolio-Bene/img/SCREENSHOTSprojects1.png)
+
+![](/Users/bonepile/Documents/Portfolio-Bene/img/SCREENSHOTSporjects2.png)
+
+### CONTACT PAGE -
+
+![](/Users/bonepile/Documents/Portfolio-Bene/img/SCREENSHOTScontact.png)
+
 ## TARGET AUDIENCE: 
 
 My target audience is anyone and everyone, I wanted it to be accessible not just by prospective employers but friends, family or someone who may just stumble across it. 
+
+## TECH STACK:
+
+HTML, CSS, NETLIFY, VSCODE
+
+TRELLO, BALSAMIQ, TYPORA, GITHUB
+
