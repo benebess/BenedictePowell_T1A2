@@ -459,7 +459,70 @@ title:hover{
     margin-bottom: 10px;
 }
 
+
+
   /* responsive media queries */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    #home .title{
+        margin-top: 0px;
+        font-size: 50px;
+        padding-top: 0px;
+    }
+
+    #home .titletwo{
+        font-size: 20px;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+
+    #home{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar .topnav1{
+        align-items: center; 
+        display: inline-flex;
+        margin-top: 10px;
+        padding: 10px; 
+        flex-direction: row;
+        width: 30%;
+        height: 20%;
+        justify-content: space-evenly;
+        display: flex;
+    }
+    
+    .navbar a{
+        width: 80%;
+        height: 50px;
+        display: inline-flex;
+        padding: 30px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        transform: scale(1.1);
+    
+    }
+    
+    a:active{
+        transform: scale(0.9);
+    }
+
+}
 
 @media only screen and (min-width: 600px) {
     /*larger than 601px - 768px*/
@@ -467,9 +530,7 @@ title:hover{
 
      /*navbar section*/
 
-     *{
-        cursor: url('/img/pointer-cursor.png'), auto;
-     }
+     
     .navbar{
         display: flex;
         justify-content: center;
@@ -512,6 +573,14 @@ title:hover{
         padding-top: 150px; 
         font-size: 30px; 
         text-align: center;
+    }
+
+    #home h1{
+        font-size: 100px;
+    }
+
+    #home h2{
+        font-size: 50px;
     }
 
     /*about section - TABLET */
