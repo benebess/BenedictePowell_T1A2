@@ -465,8 +465,8 @@ title:hover{
 
 /* Landscape */
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
 
@@ -478,14 +478,8 @@ title:hover{
 
     #home .titletwo{
         font-size: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 150px;
         padding-bottom: 20px;
-    }
-
-    #home{
-        margin: 0;
-        padding: 0;
-        
     }
 
     .navbar{
@@ -520,6 +514,15 @@ title:hover{
     
     a:active{
         transform: scale(0.9);
+    }
+
+    .container1 p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .icons{
+        width: 100%;
     }
 
 }
@@ -570,7 +573,7 @@ title:hover{
 
     #home{
         margin:auto; 
-        padding-top: 150px; 
+        padding-top: 30px; 
         font-size: 30px; 
         text-align: center;
     }
