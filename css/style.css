@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=New+Tegomin&family=Roboto+Condensed:wght@300&display=swap');
 
-
+/* custom cursor */
 *{
     margin: 0;
     padding: 0;
@@ -802,7 +802,7 @@ title:hover{
     .title{
         font-size: 100px;
         padding-top: 10px;
-        margin-top: 50px;
+        margin-top: 120px;
     }
 
     /*about me section- DESKTOP */
