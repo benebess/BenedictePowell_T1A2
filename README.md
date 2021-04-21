@@ -2,7 +2,7 @@
 
 ## LINK TO PUBLISHED PORTFOLIO WEBSITE:
 
-[Benedicte Powell _ Portfolio Website T1A2](https://benedicte-portfolio.netlify.app/)
+[PORTFOLIO WEBSITE](https://benedictepowell.netlify.app/)
 
 ## LINK TO GITHUB REPO:
 
@@ -59,4 +59,26 @@ My target audience is anyone and everyone, I wanted it to be accessible not just
 HTML, CSS, NETLIFY, VSCODE
 
 TRELLO, BALSAMIQ, TYPORA, GITHUB
+
+## TRELLO SCREENSHOTS:
+
+![](/Users/bonepile/Documents/BenedictePowell_T1A2og/Docs/trello1.png)
+
+![trello3](/Users/bonepile/Documents/BenedictePowell_T1A2og/Docs/trello3.png)
+
+![trello4](/Users/bonepile/Documents/BenedictePowell_T1A2og/Docs/trello4.png)
+
+![trello5](/Users/bonepile/Documents/BenedictePowell_T1A2og/Docs/trello5.png)
+
+![trello6](/Users/bonepile/Documents/BenedictePowell_T1A2og/Docs/trello6.png)
+
+![trello8](/Users/bonepile/Documents/BenedictePowell_T1A2og/Docs/trello8.png)
+
+![trello9](/Users/bonepile/Documents/BenedictePowell_T1A2og/Docs/trello9.png)
+
+![trello11](/Users/bonepile/Documents/BenedictePowell_T1A2og/Docs/trello11.png)
+
+## LINK TO TRELLO BOARD
+
+[TRELLO BOARD](https://trello.com/b/oQEhE0Uz/my-portfolio)
 
