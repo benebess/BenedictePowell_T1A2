@@ -799,7 +799,7 @@ title:hover{
 
     /*home section - DESKTOP */
 
-    .title{
+    #home .title{
         font-size: 100px;
         padding-top: 10px;
         margin-top: 120px;
