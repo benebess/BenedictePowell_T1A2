@@ -1011,3 +1011,371 @@ Author: benebess <b3n3b3ss@gmail.com>
 Date:   Wed Apr 7 12:50:46 2021 +1000
 
     first commit
+commit 089e6819c3a81d0c441606449bda21da3daf8f96
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Thu Apr 22 08:54:16 2021 +1000
+
+    fixed SRI
+
+commit df45b1c0978687aed9dab3fb05a42530e90b5791
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Thu Apr 22 08:42:44 2021 +1000
+
+    update to gitlog after SRI
+
+commit 21dc6197cb7f2380c5cc46bbf913a20700b2c096
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Thu Apr 22 08:35:05 2021 +1000
+
+    trying to get SRI to work
+
+commit 821de8255ce948208e3f1b601ae087071a50729e
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Thu Apr 22 08:32:12 2021 +1000
+
+    sri
+
+commit e665056a6d4b721c64bcc25195dd27737e63083b
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 18:44:16 2021 +1000
+
+    gitlog text file
+
+commit 69966505ed080e304ac61903a5984f427dddc76f
+Merge: e202c39 9ce6aa4
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 18:39:47 2021 +1000
+
+    Merge branch 'main' of github.com:benebess/Portfolio-Bene into main
+
+commit e202c3912c74b7e998627f4c4d8a7bfc40d5b6a7
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 18:39:20 2021 +1000
+
+    added trello shots to readme
+
+commit 9ce6aa4b1900d70fd39ae2155bf36f3cf2e8920c
+Author: Benedicte Powell <80371177+benebess@users.noreply.github.com>
+Date:   Wed Apr 21 17:43:13 2021 +1000
+
+    Add files via upload
+
+commit 088c575aefa79fdf6e560a334a73d978ebe6bfd4
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 16:11:49 2021 +1000
+
+    fix images
+
+commit ea2a009717e8484fefcf3522f51a051eba8fbc17
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 16:10:09 2021 +1000
+
+    seeing if this works
+
+commit d94c95d710613f5bf366a2105d8fb5d8283830ac
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 16:08:34 2021 +1000
+
+    see if its working
+
+commit 9ce6c87529faf58f1b293bb2f92d741b764851fa
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 15:58:14 2021 +1000
+
+    minor changes
+
+commit 43da21b12f4d85dd1577ba1686923ffaa605c889
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 15:40:03 2021 +1000
+
+    test
+
+commit b988b6d52a0741b3de0ded95d2a04072144a4654
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 15:32:31 2021 +1000
+
+    fixed stylesheet after renaming directory
+
+commit ffec7495a87eb613f3a7a90bc64139f76b39c9d7
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 15:26:17 2021 +1000
+
+    fixed links and rel links to stylesheet
+
+commit 9b0052c9c2fa7a5ccb3a60383d06f2a7f4461c4c
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 14:47:29 2021 +1000
+
+    new link for resume
+
+commit 7162f8081bf03196ff52ce59d22582e92e07682c
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 14:44:25 2021 +1000
+
+    edit readme doc
+
+commit 327ead58d226782a4770d433e29e4af84f2d3365
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 14:12:08 2021 +1000
+
+    fix margin
+
+commit 962fcf4e79872e5862a1b2214fd5ed0b75a432d3
+Merge: 00174ab ac8f81d
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 14:09:54 2021 +1000
+
+    Merge branch 'main' of github.com:benebess/Portfolio-Bene into main
+
+commit 00174ab89b3e77b90e04ac2655d88af121ed8a87
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 14:09:16 2021 +1000
+
+    margins fixed link
+
+commit ac8f81d5656425a00339210b210977fe0f393fcd
+Author: Benedicte Powell <80371177+benebess@users.noreply.github.com>
+Date:   Wed Apr 21 13:59:08 2021 +1000
+
+    Add files via upload
+
+commit 05e3686de75cac731d95fde920910516e35e62f8
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 11:32:29 2021 +1000
+
+    margins
+
+commit ecffa8e7f81de168462fe2c8bc3de06b68e8fcd6
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 11:28:35 2021 +1000
+
+    fixed landscape
+
+commit efc383660f3d30c4181a8763e6ff7e2f96a2e516
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 21 11:15:02 2021 +1000
+
+    added few changes tidied up
+
+commit 8930435964c5929fff546e379e3e70f6897a2f35
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Tue Apr 20 14:40:02 2021 +1000
+
+    fixed margin on home page
+
+commit f8c4f45442c2c1e9a043a87e0419d9d887574eff
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 19 19:43:03 2021 +1000
+
+    removed repeat from projects page
+
+commit cb4242b6a0d963343ac4cea311444a052fe77923
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 19 13:50:16 2021 +1000
+
+    margins contact page around h1
+
+commit 7739ea08c067a0240d33c617e20c1fb46e93d23b
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 19 13:43:55 2021 +1000
+
+    margin update contact page
+
+commit a3fb3753665e9bbde732b68d6f2f24411168e4ea
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 19 13:40:20 2021 +1000
+
+    margin update
+
+commit c49fadfac8a1e16bd32c4b27a0c1a5fbabbb426b
+Merge: 315c1d1 1cc4b55
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 19 13:17:13 2021 +1000
+
+    erge branch 'main' of github.com:benebess/Portfolio-Bene into main
+
+commit 315c1d1e73935b4013222e461c135d9462877da8
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 19 12:49:27 2021 +1000
+
+    made contact page responsive
+
+commit 401265e045914ff62fc745a8da8859c9e632d9e0
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 19 11:09:24 2021 +1000
+
+    center pdf and align links
+
+commit bb8ebaf518c56843035dae2e7dfd2dc5507acad0
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 19 09:24:13 2021 +1000
+
+    skill icons added
+
+commit aa737abf721c5a3f8e6ed7894cb0f8e411f64201
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Sat Apr 17 19:40:12 2021 +1000
+
+    began working on contact page
+
+commit 1cc4b55afd912d9486e2d9df4b53fbf2f41f2c94
+Merge: 279bf95 69af652
+Author: Benedicte Powell <80371177+benebess@users.noreply.github.com>
+Date:   Sat Apr 17 17:31:35 2021 +1000
+
+    Merge pull request #6 from benebess/section
+    
+    finally got the responsive design working for blog page on desktop
+
+commit 69af652fa47ec7c72d145996b8ae72e6cde5e07e
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Sat Apr 17 17:30:11 2021 +1000
+
+    finally got the responsive design working for blog page on desktop
+
+commit 279bf95e975c03c992530f7c0f2ba5aa17c4daa3
+Merge: f805d3e 07aed33
+Author: Benedicte Powell <80371177+benebess@users.noreply.github.com>
+Date:   Fri Apr 16 12:40:05 2021 +1000
+
+    Merge pull request #5 from benebess/section
+    
+    Section
+
+commit 07aed3331764fc1732b28013f9943a7c29bc85a7
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Fri Apr 16 12:38:57 2021 +1000
+
+    changes to CSS file
+
+commit 1c2cc4cbf9658936204e697031ee57c532788e16
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 14 14:59:45 2021 +1000
+
+    something went wrong needed to fix- was in wrong directory lol
+
+commit 9ccda88cbd8ecb1b5d0fb74841a3ec2554d7f1ff
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 14 14:35:10 2021 +1000
+
+    css/style saved
+
+commit f05c33e0efb42e80285de8b690c4e670a4f5df4b
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 14 14:30:50 2021 +1000
+
+    update img files
+
+commit f55dc5e576d6b60caafce2d5bb87be3492d6ea3c
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 14 14:28:27 2021 +1000
+
+    working on blog posts for desktop
+
+commit f805d3e9226df54ace84d1eeb41ee92a480914e1
+Merge: 04d7b90 2169fe0
+Author: Benedicte Powell <80371177+benebess@users.noreply.github.com>
+Date:   Tue Apr 13 16:48:25 2021 +1000
+
+    Merge pull request #4 from benebess/section
+    
+    responsive blog page set up for tablet & phone
+
+commit 2169fe0d777b88aba1687c4d72e043eba9dc333e
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Tue Apr 13 16:37:30 2021 +1000
+
+    responsive blog page set up for tablet & phone
+
+commit 04d7b9007f59749709780afc624e516fd7960dda
+Merge: ccbc121 dd94f55
+Author: Benedicte Powell <80371177+benebess@users.noreply.github.com>
+Date:   Tue Apr 13 13:08:24 2021 +1000
+
+    Merge pull request #3 from benebess/section
+    
+    got responsive design working for mobile & tablet
+
+commit dd94f558dc6098d2b04d53a4d35ae3f1ac70db8b
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Tue Apr 13 13:07:30 2021 +1000
+
+    got responsive design working for mobile & tablet
+
+commit ccbc121fba0be012d66243ae29259f487ea942c9
+Merge: ff1ec9a 146dfde
+Author: Benedicte Powell <80371177+benebess@users.noreply.github.com>
+Date:   Mon Apr 12 16:06:23 2021 +1000
+
+    Merge pull request #2 from benebess/section
+    
+    Section
+
+commit 146dfdec7e2502f4405ab2912087ce811e76b510
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 12 15:58:48 2021 +1000
+
+    fixing folder and directories
+
+commit 9282233ff01a80877fae07b4b101539c0c4b8088
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 12 15:39:18 2021 +1000
+
+    rearranged files into portfolio folder
+
+commit 228cd9c3a4a57fd3eef9d24c0e29c35d2bc2d321
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Mon Apr 12 10:50:33 2021 +1000
+
+    minor changes to add base html to various html pages
+
+commit ff1ec9a8c6fff18bdf9fb25cc1978295f215465c
+Merge: bb81dfb 585f449
+Author: Benedicte Powell <80371177+benebess@users.noreply.github.com>
+Date:   Thu Apr 8 17:00:55 2021 +1000
+
+    Merge pull request #1 from benebess/section
+    
+    Section
+
+commit 585f449038d1c38e7fca7f27aa5101090c0e35aa
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Thu Apr 8 16:59:43 2021 +1000
+
+    changes made to profile section
+
+commit c344e76283353199c8db2b8cfbc2de581c873315
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Thu Apr 8 13:01:04 2021 +1000
+
+    commiting new html files
+
+commit bb81dfba8c20e81b7451631cb27aa455372f3a92
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Thu Apr 8 12:41:46 2021 +1000
+
+    Deleted file and began again
+
+commit 76aa1d0493243de77c82ce3f5af12f283bf9f7f2
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 7 14:42:25 2021 +1000
+
+    delete changes
+
+commit 8f5559a646d1ff97ed5189c1efe159f56cec35a2
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 7 14:41:20 2021 +1000
+
+    changes made
+
+commit 7bfbb3015a5e37751d0b2a61a26c2170fed6325d
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 7 12:51:54 2021 +1000
+
+    add other files
+
+commit c20c126f59741857981c4ee467d6a8269ca0640b
+Author: benebess <b3n3b3ss@gmail.com>
+Date:   Wed Apr 7 12:50:46 2021 +1000
+
+    first commit
